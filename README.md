@@ -1,2 +1,3 @@
 # eform
-Hello,everyone. This is a javaee project that provided OA function for the small corporation.
+Hello,everyone. This is a  project that provided OA function for the big corporation.
+Check the github code.
