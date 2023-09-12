@@ -1,4 +1,4 @@
-- [初识 Spring](#初识-Spring)  
+- [初识 Spring](#初识-spring)  
   - [javaee 平台的诞生和发展](#javaee-平台的诞生和发展)
   - [spring的起源](#spring的起源)
   - [spring 框架介绍](#spring-框架介绍)
