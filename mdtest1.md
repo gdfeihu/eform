@@ -1,3 +1,170 @@
+- [初识 Spring](#初识-Spring)  
+  - [javaee 平台的诞生和发展](#javaee-平台的诞生和发展)
+  - [spring的起源](#spring的起源)
+  - [spring 框架介绍](#spring-框架介绍)
+    - [核心容器](#核心容器)
+    - [对AOP的支持](#对aop的支持)
+  - [spring 的设计思想](#spring-的设计思想)
+  - [如何学习spring](#如何学习spring)
+
+- [Spring 快速入门](#spring-快速入门)
+
+- [spring核心容器](#spring核心容器)
+
+
+
+
+  
+#初识 Spring 
+
+要为分炎在工   举林“既然如此，`为什么不拿起枪来战斗呢`？”，你为什么在大庭广众众目睽睽之下明目张胆地煽动他人颠覆国家政权？
+
+**大哥，你们不是说塔利班是叛乱份子么，你拿起枪炮打叛乱分子为什么不可以？可是为什么完全没有人拿起枪来抵抗？如此诡异，你都不觉得奇怪么**
+
+ “~~可是为什么完全没有人拿起枪来抵抗~~？如此诡异，你都不觉得奇怪么”，这有什么好奇怪的，南京大屠杀也完全没有人拿起枪来抵抗，难道就因为没有人抵抗你就可以判定日本军队不是法西斯侵略者和杀人机器？难道你还想为罪恶滔天的日本法西斯侵略军来进行辩护？
+
+1. 工这有在
+   2. 录脸灾
+      3. 因为一摇
+
+## javaee 平台的诞生和发展
+
+## spring的起源
+
+## spring 框架介绍
+
+### 核心容器
+
+### 对AOP的支持
+
+1. 3344
+
+2. 
+
+## spring 的设计思想
+
+## 如何学习spring
+
+```java
+public class MySampleJob extends QuartzJobBean {
+
+    // fields ...
+
+    // Inject "MyService" bean
+    public void setMyService(MyService myService) {
+        this.myService = myService;
+    }
+
+    // Inject the "name" job data property
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    protected void executeInternal(JobExecutionContext context) throws JobExecutionException {
+        this.myService.someMethod(context.getFireTime(), this.name);
+    }
+
+}
+```
+
+# Spring 快速入门
+
+1. 你造全
+
+2. wewr
+
+3. 都可以
+   
+   ~~林仍~~
+   
+   3.1 侧貌分析
+   
+   ***肢体动静脉修复术地***
+   
+   - 用什么入门
+     - 32323
+   - 434
+   - 味儿
+     + 乳化膜2
+       + 32425
+     + 夺标s
+       * 23434
+         * 标票村
+         * 作一地
+
+4. sdfsf
+   
+   1. sdfeew
+      1. 23234
+
+# spring核心容器
+
+```java
+void child_process(void)
+{
+  sleep(2);
+  char msg[MAXBUF];
+  struct sockaddr_in addr = {0};
+  int n, sockfd,num=1;
+  srandom(getpid());
+  /* Create socket and connect to server */
+  sockfd = socket(AF_INET, SOCK_STREAM, 0);
+  addr.sin_family = AF_INET;
+  addr.sin_port = htons(2000);
+  addr.sin_addr.s_addr = inet_addr("127.0.0.1");
+
+  connect(sockfd, (struct sockaddr*)&addr, sizeof(addr));
+
+  printf("child {%d} connected \n", getpid());
+  while(1){
+        int sl = (random() % 10 ) +  1;
+        num++;
+         sleep(sl);
+      sprintf (msg, "Test message %d from client %d", num, getpid());
+      n = write(sockfd, msg, strlen(msg));    /* Send message */
+  }
+
+}
+```
+
+------
+
+> 脸和爰有仍
+> 
+> 胗产痧
+
+**大脸**     😂  
+
+| 髹林  | 二   | 奇哉  | 㐱   |
+|:--- | --- | --- | --- |
+| 大地震 | 塔顶地 |     |     |
+| 摇篮  |     |     |     |
+|     |     |     |     |
+
+[朋仍]: https://jingyan.baidu.com/article/647f01150dda577f2148a835.html
+
+[钦人](https://jingyan.baidu.com/article/647f01150dda577f2148a835.html)
+
+![76N58PIC7rQ](N:\win10mydocument\Pictures\76N58PIC7rQ.jpg)
+
+> 
+
+https://www.youtube.com/watch?v=rV_Vw2PxuA4
+[[]()]()
+[古代史1](https://www.youtube.com/watch?v=rV_Vw2PxuA4)
+
+[宋朝133](https://baike.baidu.com/item/%E6%9C%BA%E5%99%A8%E6%95%B0)
+
+[![棼且](http://pics.dmm.co.jp/mono/movie/adult/blk496/blk496pl.jpg)](https://baike.baidu.com/item/%E6%9C%BA%E5%99%A8%E6%95%B0)
+
+> 
+
+[]()
+
+
+
+
 ### 主要特性
 
 - 支持“标准”Markdown / CommonMark和Github风格的语法，也可变身为代码编辑器；
